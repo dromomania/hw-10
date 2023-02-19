@@ -1,0 +1,131 @@
+.header {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+  &___top {
+    background-color: #000000;
+  }
+
+  &__top-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content-inner {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    row-gap: 42px;
+  }
+
+  &__content-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    max-width: 670px;
+    color: #fff;
+  }
+
+  &__content-separator {
+    width: 170px;
+    border: 1px solid #fff;
+  }
+
+  &__content-subtitle {
+    font-family: 'Raleway', sans-serif;
+    width: 270px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #fff;
+  }
+
+  &__content-button {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #FFFFFF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 15px 24px;
+    line-height: 24.51px;
+    width: 270px;
+  }
+
+  &__form {
+    width: 470px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  &__form-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__form-title span {
+    color: #EC7979;
+  }
+
+  &__form-fields {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px 60px 50px;
+    gap: 60px;
+    width: 370px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  &__input {
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  &__form-button {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #EC7979;
+    color: #fff;
+    border: #fff;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+  }
+}
+
+.wrap {
+  display: flex;
+  margin-top: 90px;
+}

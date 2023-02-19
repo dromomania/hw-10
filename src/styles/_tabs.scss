@@ -1,0 +1,55 @@
+.content {
+  padding: 138px 0px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.download {
+  display: inline-block;
+  width: 270px;
+  line-height: 25px;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  background-color: #EC7979;
+  padding: 12px 32px 11px;
+  margin-left: 65px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.tabs {
+  &__items {
+    display: flex;
+    line-height: 24px;
+    padding: 10px auto;
+    font-family: 'Open Sans';
+    font-size: 14px;
+  }
+
+  &__item {
+    width: 201px;
+    text-decoration: none;
+    color: #000000;
+    justify-content: start;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+  }
+
+   &__block {
+    display: flex;
+  }
+
+  &__main {
+    border: 1px solid #C6CBCD;
+    height: 500px;
+  }
+}
